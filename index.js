@@ -10,7 +10,7 @@ const app = express()
 const PORT = 3000
 
 app.use(cors({
-    origin: ['http://localhost:5173'],
+    origin: ['https://clerk-fro.vercel.app'],
     credentials: true
 }))
 app.use(cookieParser())
